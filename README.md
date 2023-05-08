@@ -88,15 +88,16 @@ The model's ability to properly forecast positives out of real positives is meas
 
 **F1 Score**
 A popular statistic for assessing the effectiveness of binary classifiers is the F1-score. It offers a gauge of the model's overall accuracy by combining precision and recall into a single score.
-	**Logistic Regression**		**Decision Tree**	**Random Forest**	**XGBoosting**
+
+**Logistic Regression**		**Decision Tree**	**Random Forest**	**XGBoosting**
 	
-**Accuracy**		94.73%		91.57%		94.73%		**95.26%**
+**Accuracy**		94.73%,		91.57%,		94.73%,		**95.26%**
 
-**Precision**		89.47%		90.52%		90.52%		91.57%
+**Precision**		89.47%,		90.52%,		90.52%,		91.57%
 
-**Recall**		100%		92.47%		98.85%		98.86%
+**Recall**		100%,		92.47%,		98.85%,		98.86%
 
-**F1 Score**		94.44%		91.48%		94.50%		95.08%
+**F1 Score**		94.44%,		91.48%,		94.50%,		95.08%
 
 As, we can clearly see in the table above that accuracy score, precision score,  recall score and F1 score, all are highest in the case of XGBoosting.
 
