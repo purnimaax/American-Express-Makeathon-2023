@@ -58,14 +58,15 @@ When the target variable is categorical, linear regression is used in a specific
 The sigmoid function, also known as the logistic function, produces a 'S'-shaped curve that may transfer any real-valued integer to a value between 0 and 1. Y anticipated will become 1 if the curve travels to a positive infinity, and 0 if the curve goes to a negative infinity.
 
 
-**Decision Tree Algorithm **
+**Decision Tree Algorithm**
 
 A decision tree is a tree structure that resembles a flowchart where each leaf node symbolises the result and each inside node indicates a characteristic (or attribute). The root node in a decision tree is located at the top and gains the ability to divide data depending on attribute values. It uses visualisation to replicate thinking at the human level and is simple to understand and interpret. The amount of records and number of characteristics in the provided data determine the temporal complexity of decision trees. It is a non-parametric or distribution-free strategy that does not rely on the assumptions of a probability distribution.
 
 
-**Random Forest **
+**Random Forest**
 
 The bagging technique is extended by the random forest algorithm, which uses feature randomness in addition to bagging to produce an uncorrelated forest of decision trees. The random subspace approach, also known as feature bagging, creates a random subset of features that guarantees minimal correlation between decision trees. The main distinction between decision trees and random forests is this. Random forests merely choose a portion of those feature splits, whereas decision trees consider all potential feature splits.
+
 
 **XGBoost**
 
@@ -88,13 +89,18 @@ The model's ability to properly forecast positives out of real positives is meas
 **F1 Score**
 A popular statistic for assessing the effectiveness of binary classifiers is the F1-score. It offers a gauge of the model's overall accuracy by combining precision and recall into a single score.
 
-	**Logistic Regression	Decision Tree	Random Forest	XGBoosting**
+	**Logistic Regression**		**Decision Tree**	**Random Forest**	**XGBoosting**
+	
 **Accuracy**	94.73%	91.57%	94.73%	**95.26%**
+
 **Precision**	89.47%	90.52%	90.52%	91.57%
+
 **Recall**	100%	92.47%	98.85%	98.86%
+
 **F1 Score**	94.44%	91.48%	94.50%	95.08%
 
 As, we can clearly see in the table above that accuracy score, precision score,  recall score and F1 score, all are highest in the case of XGBoosting.
 
 **Conclusion**
+
 XGBoost have highest accuracy on testing data, i.e., 95.26%. Based on the performance of this model with the test data, we can conclude that it is effective in accurately predicting the outcome of credit card transactions and detecting fraudulent activity.
